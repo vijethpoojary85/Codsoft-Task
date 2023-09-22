@@ -2,7 +2,8 @@
 
 Designed by: Vijeth Poojari
 
-Hosted on Netlify: [Calculator App]  vijethcalculator.netlify.app
+Hosted on Netlify: [Calculator App] 
+Link - https://vijethcalculator.netlify.app/
 
 ## Overview
 This web application is a basic calculator with additional scientific functions. It allows users to perform both basic arithmetic operations and scientific calculations.

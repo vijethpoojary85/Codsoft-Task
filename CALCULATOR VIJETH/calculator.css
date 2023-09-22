@@ -1,0 +1,45 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    background-color: #133232;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/10/08/48/calculator-2620121_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 24px;
+    background-color: #b18989;
+    color: rgb(9, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #bf4242;
+}
+
+.display {
+    grid-column: span 4;
+    background-color: #444;
+    padding: 15px;
+    font-size: 36px;
+    text-align: right;
+    color: white;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
